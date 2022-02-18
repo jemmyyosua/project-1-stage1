@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+nav{
+    font-weight: 800;
+    font-family: 'Balsamiq Sans', cursive;
+    background: linear-gradient(100deg, #ff758c 0%, #ff7eb3 100%);
+}
+
+body{
+    background-color: #e9e4f0;
+}
+
+.btn-contact{
+    cursor: pointer;
+    background: linear-gradient(90deg, #ffc3a0 0%, #ffafbd 100%);
+    border: none;   
+    padding: 1vh 1vh;
+    border-radius: 1vh;
+    font-weight: 700;
+    color: black;
+}
+
+.btn-contact:hover{
+    color: white;
+}
+
+
+/* section 1 */
+.btn-profile{
+    cursor: pointer;
+    background: linear-gradient(90deg, #ffc3a0 0%, #ffafbd 100%);
+    border: none;   
+    padding: 1vh 5vh;
+    border-radius: 3vh;
+    font-weight: 700;
+    font-size: 13pt;
+    color: black;
+    text-decoration: none;
+}
+
+.img-download{
+    width: 3%;
+}
+
+.home-card{
+    transition: 0.3s;
+    background:linear-gradient(90deg, #da4453 0%, #89216b 100%);
+    cursor: pointer;
+}
+
+.home-card:hover{
+    box-shadow: 5px 5px 5px 5px rgba(21, 94, 252, 0.2);
+    color: white;
+}
+
+.icon{
+    cursor: pointer;
+    fill: white;
+    width: 6%;
+}
+
+
+/* section 2 */
+
+.section-2{
+    background-color: white;
+}
+
+
+.img-card{
+    width: 12%;
+}
+
+.btn-card{
+    cursor: pointer;
+    background: linear-gradient(90deg, #ffc3a0 0%, #ffafbd 100%);
+    border: none;   
+    border-radius: 1vh;
+    font-weight: 700;
+    color: black;
+}
+
+.btn-card:hover{
+    color: #e9e4f0 ;
+}
+
+
+.p-card{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    min-height:18vh;
+}
+
+
+/* form blog */
+form{
+    background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+/* detail blog */
+.img-duration{
+    width: 10%;
+    height: 10%;
+}
+
+
+/* login and register */
+
+.form-login{
+    background: linear-gradient(110deg, #ff9a9e 55%, #fad0c4 10%);
+}
+
