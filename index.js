@@ -285,10 +285,8 @@ exp.get('/add-my-project', (req, res) => {
     res.render('add-my-project')
 })
 
-const port = 5500
-exp.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-})
+exp.listen(process.env.PORT || 5300)
+           
 
 
 let month = [
